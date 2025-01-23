@@ -1,2 +1,9 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<script lang="ts">
+    import Island from "../components/Island.svelte";
+</script>
+
+<main class="h-screen w-full bg-black">
+    <div class="flex justify-center items-center h-screen w-full">
+        <Island />
+    </div>
+</main>
