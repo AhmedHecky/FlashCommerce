@@ -23,6 +23,7 @@
 		"vite": "^6.0.0"
 	},
 	"dependencies": {
+		"@fontsource-variable/inter": "^5.1.1",
 		"svelte-typewriter": "^3.2.3"
 	}
 }
